@@ -1,0 +1,33 @@
+.flex{
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.option1{
+    height: 50%;
+    width: 100%;
+    border-radius: 9%;
+    border-bottom-right-radius: 0%;
+    color: #6486FF;
+    border-bottom-left-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em #2196F3;
+}
+
+.option2{
+    border-radius: 9%;
+    height: 50%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    width: 100%;
+    background: linear-gradient(180deg, #6486FF 0%, #6486FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.flex{
+    width: 100vw;
+    height: 52vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ion-input{
+        /* border: saddlebrown; */
+    
+        color: white;
+        width: 74vw;
+        height: -11vh !important;
+        margin-top: 50%;
+}
+
+input{
+    border: solid !important;
+}
+
+ion-button{
+    width: 74vw;
+}
+
+ion-content{
+    --background: linear-gradient(180deg, #6486FF 0%, #6486FF 100%);
+}
+
+.logo{
+    position: fixed;
+    width: 53%;
+    margin-left: 21%;
+}
